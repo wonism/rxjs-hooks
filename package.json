@@ -45,6 +45,7 @@
     "standard": "^14.3.1",
     "ts-jest": "^24.1.0",
     "ts-loader": "^6.2.1",
+    "tslib": "^1.10.0",
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",
@@ -55,8 +56,9 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.9.0"
   },
-  "dependencies": {
-    "tslib": "^1.10.0"
+  "peerependencies": {
+    "react": ">= 16.8.0",
+    "rxjs": "^6.5.3"
   },
   "lint-staged": {
     "*.js": [
